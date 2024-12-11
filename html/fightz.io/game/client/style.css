@@ -1,0 +1,300 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background: #33181D;
+	font-family: sans-serif;
+	color: #F3F3F3;
+	overflow: hidden;
+	
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; 
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: #F3F3F3;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 2px 8px -5px;
+    cursor: pointer;
+	width: 70px;
+	height: 42px;
+	vertical-align: top;
+}
+.button:hover {
+	background-color: #3D8C40;
+}
+.button2 {
+    background-color: #1e4620;
+    border: none;
+    color: #F3F3F3;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 2px 8px -5px;
+    cursor: default;
+	width: 70px;
+	height: 42px;
+	vertical-align: top;
+}
+.button3 {
+    background-color: #4CAF50;
+    border: none;
+    color: #F3F3F3;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 2px 8px -5px;
+    cursor: pointer;
+	width: 100px;
+	height: 42px;
+	vertical-align: top;
+}
+.button3:hover {
+	background-color: #3D8C40;
+}
+.button4 {
+    background-color: #1e4620;
+    border: none;
+    color: #F3F3F3;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 2px 8px -5px;
+    cursor: pointer;
+	width: 100px;
+	height: 42px;
+	vertical-align: top;
+}
+
+.buttonRed,.buttonOrange,.buttonBlue,.buttonAqua,.buttonGreen,.buttonDarkGreen,.buttonGrey {
+    border: none;
+    color: #F3F3F3;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+	margin: 0;
+	width: 100%;
+	height: 48px;
+	border-radius: 6px;
+	font-weight: 600;
+	vertical-align: top;
+}
+.buttonGreen {
+    background-color: #4CAF50;
+	box-shadow: 0 7px #3D8C40;
+}
+.buttonGreen:hover {
+    background-color: #3D8C40;
+	box-shadow: 0 7px #347736;
+}
+
+.buttonGrey {
+	cursor: not-allowed;
+	background-color: #686868;
+	box-shadow: 0 7px #4D4D4D;
+}
+
+.buttonGrey:hover {
+	background-color: #4D4D4D;
+	box-shadow: 0 7px #3D3D3D;
+}
+
+.buttonDarkGreen {
+    background-color: #1E4620;
+	box-shadow: 0 7px #112812;
+}
+
+.buttonRed {
+    background-color: #A4141A;
+	box-shadow: 0 7px #821018;
+}
+.buttonRed:hover {
+    background-color: #821018;
+	box-shadow: 0 7px #560B11;
+}
+.buttonOrange {
+	background-color: #CC7A28;
+	box-shadow: 0 7px #AD6822;
+}
+.buttonOrange:hover {
+	background-color: #AD6822;
+	box-shadow: 0 7px #824E1A;
+}
+.buttonBlue {
+    background-color: #738BD8;
+	box-shadow: 0 7px #526499;
+}
+.buttonBlue:hover {
+    background-color: #526499;
+	box-shadow: 0 7px #3D4C72;
+}
+.buttonAqua {
+    background-color: #28A6CC;
+	box-shadow: 0 7px #228CAD;
+	
+}
+.buttonAqua:hover {
+    background-color: #228CAD;
+	box-shadow: 0 7px #1A6A82;
+}
+
+.buttonControl {
+	background-color: rgba(0, 0, 0, .8);
+}
+
+.buttonControl:hover {
+	background-color: rgba(0, 0, 0, .5);
+}
+
+input[type=text], select {
+    width: 170px;
+	height: 42px;
+    padding-left: 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+	vertical-align: top;
+	background:#CCC;
+	font-size:12px;
+}
+
+input[type=password], select {
+    width: 170px;
+	height: 42px;
+    padding-left: 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+	vertical-align: top;
+	background:#CCC;
+	font-size:12px;
+}
+
+a:link, a:visited {
+	color:#FFF;
+	text-decoration:none;
+}
+a:link:hover, a:visited:hover {
+	text-decoration:underline;
+}
+h1{
+	font-family:sans-serif;
+	font-weight:700;
+	font-size:96px;
+	color:white;
+	text-shadow:4px 4px 4px #000;
+	margin: 0;
+}
+
+h2{
+	font-family:sans-serif;
+	font-size:24px;
+	color:white;
+	margin: 0;
+}
+
+b{
+	font-weight:900;
+	color:#4CAF50;
+}
+.center {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.wrapper {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.youtube {
+    background-color: #000;
+    margin: 0;
+    position: relative;
+    padding-top: 56.25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.youtube img {
+    width: 100%;
+    top: -16.82%;
+    left: 0;
+    opacity: 0.7;
+}
+.youtube .play-button {
+    width: 90px;
+    height: 60px;
+    background-color: #333;
+    box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
+    z-index: 1;
+    opacity: 0.8;
+    border-radius: 6px;
+}
+.youtube .play-button:before {
+    content: "";
+    border-style: solid;
+    border-width: 15px 0 15px 26.0px;
+    border-color: transparent transparent transparent #fff;
+}
+.youtube img,
+.youtube .play-button {
+    cursor: pointer;
+}
+.youtube img,
+.youtube iframe,
+.youtube .play-button,
+.youtube .play-button:before {
+    position: absolute;
+}
+.youtube .play-button,
+.youtube .play-button:before {
+    top: 50%;
+    left: 50%;
+    transform: translate3d( -50%, -50%, 0 );
+}
+.youtube iframe {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#headerLogo:hover {
+  animation: shake 0.5s;
+
+  animation-iteration-count: infinite;
+}
+						
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
