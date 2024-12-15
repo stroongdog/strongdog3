@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OAuth Callback</title>
+		<script type="text/javascript">
+			function callback() {
+				if (window.opener &&
+					window.opener.onPopupLoad != undefined &&
+					typeof window.opener.onPopupLoad === 'function'
+				) window.opener.onPopupLoad(window.location.href);
+			}
+			window.onload = callback;
+		</script>
+	</head>
+	<body></body>
+</html>
