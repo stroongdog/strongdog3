@@ -3,13 +3,12 @@
 ----
 
 ## Links
-* https://stroongdog.netlify.app
-* https://mathcord.netlify.app
-* https://strongdog.onrender.com
-* https://strongdog.stormkit.dev
+* https://strongdogxp.github.io
+* https://mathcord.github.io
 * https://jman1593.github.io
-* https://strongdog.netlify.app
 * https://strongdog-1.vercel.app
 * https://mathcord.com
 * https://strongdog.com
-* https://strongdogxp.github.io
+* https://weakcatxp.github.io
+
+#### If you want to host it yourself, contact me and tell me the link you want to make it, and I will get your site hooked up to the strongdog database! YOUR SITE WILL NOT WORK IF YOU DO NOT ASK ME FIRST!
