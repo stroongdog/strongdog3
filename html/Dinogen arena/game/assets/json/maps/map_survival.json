@@ -1,0 +1,13 @@
+﻿{
+  "name": "Survival Outpost",
+  "id": "map_survival",
+  "edges": [],
+  "ai": {
+    "nodes": [],
+    "threshold": 100,
+    "dimensions": {
+      "x": 0,
+      "y": 0
+    }
+  }
+}
